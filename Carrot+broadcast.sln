@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A6E2D190-1FB7-42A5-BDA6-039500E86748}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presetention", "Presetention", "{FF67247A-E952-473A-A2ED-0D20EC0697FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carrot+broadcastTest", "Carrot+broadcastTest\Carrot+broadcastTest.csproj", "{CF4D7C85-4A75-4CD6-AF33-B6132958D82B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carrot+broadcast.Parser", "Carrot+broadcast.Parser\Carrot+broadcast.Parser.csproj", "{9EC42D51-CF3F-49D5-8467-611F6486E38A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1E455CDB-47AA-49B7-8DD2-EF57161036DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carrot+broadcast.DAL", "Carrot+broadcast.DAL\Carrot+broadcast.DAL.csproj", "{8FA0A3A0-C8BB-4956-9B95-B1E826E2A11A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carrot+broadcast.Domain", "Carrot+broadcast.Domain\Carrot+broadcast.Domain.csproj", "{ADA4ED37-307F-46C8-BBDC-5EE001D34D7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF4D7C85-4A75-4CD6-AF33-B6132958D82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4D7C85-4A75-4CD6-AF33-B6132958D82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4D7C85-4A75-4CD6-AF33-B6132958D82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4D7C85-4A75-4CD6-AF33-B6132958D82B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC42D51-CF3F-49D5-8467-611F6486E38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC42D51-CF3F-49D5-8467-611F6486E38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC42D51-CF3F-49D5-8467-611F6486E38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC42D51-CF3F-49D5-8467-611F6486E38A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA0A3A0-C8BB-4956-9B95-B1E826E2A11A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA0A3A0-C8BB-4956-9B95-B1E826E2A11A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA0A3A0-C8BB-4956-9B95-B1E826E2A11A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA0A3A0-C8BB-4956-9B95-B1E826E2A11A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA4ED37-307F-46C8-BBDC-5EE001D34D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA4ED37-307F-46C8-BBDC-5EE001D34D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA4ED37-307F-46C8-BBDC-5EE001D34D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA4ED37-307F-46C8-BBDC-5EE001D34D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF4D7C85-4A75-4CD6-AF33-B6132958D82B} = {FF67247A-E952-473A-A2ED-0D20EC0697FB}
+		{9EC42D51-CF3F-49D5-8467-611F6486E38A} = {A6E2D190-1FB7-42A5-BDA6-039500E86748}
+		{8FA0A3A0-C8BB-4956-9B95-B1E826E2A11A} = {1E455CDB-47AA-49B7-8DD2-EF57161036DC}
+		{ADA4ED37-307F-46C8-BBDC-5EE001D34D7D} = {1E455CDB-47AA-49B7-8DD2-EF57161036DC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99A61A7E-F0AD-4F43-A397-39BDAB946879}
+	EndGlobalSection
+EndGlobal

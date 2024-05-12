@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Carrot_broadcastTest</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Carrot+broadcast.DAL\Carrot+broadcast.DAL.csproj" />
+    <ProjectReference Include="..\Carrot+broadcast.Domain\Carrot+broadcast.Domain.csproj" />
+    <ProjectReference Include="..\Carrot+broadcast.Parser\Carrot+broadcast.Parser.csproj" />
+  </ItemGroup>
+
+</Project>
